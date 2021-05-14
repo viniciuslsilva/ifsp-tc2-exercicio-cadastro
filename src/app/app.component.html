@@ -1,0 +1,14 @@
+<div>
+  <div class="titulo">
+    <h2>Cadastro de Pessoas</h2>
+  </div>
+  <div class="card">
+  <div>
+    <app-menu (emitirEvento)="exibirComponente($event)"></app-menu>
+    <app-list></app-list>
+  </div>
+  <div>
+    <app-form *ngIf="mostrarFormulario"></app-form>
+  </div>
+</div>
+</div>
